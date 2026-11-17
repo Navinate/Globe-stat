@@ -15,9 +15,6 @@ npm run build    # dist/index.html — one self-contained file
 
 Import the repo in Vercel; `vercel.json` sets the Vite build (`npm run build` → `dist/`). Or run `npx vercel --prod`.
 
-```sh
-```
-
 ## Data
 
 `npm run data` (`scripts/pipeline.py`, needs `pandas` + `pycountry`) reads OWID CSVs from `raw/` and writes:
