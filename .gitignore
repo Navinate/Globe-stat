@@ -1,0 +1,7 @@
+node_modules/
+dist/
+raw/
+shots/
+.vercel
+.DS_Store
+__pycache__/
